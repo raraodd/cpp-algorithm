@@ -1,0 +1,19 @@
+16:48:09 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+Building file: ../src/483 - World Scramble.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/483 - World Scramble.d" -MT"src/483\ -\ World\ Scramble.d" -o "src/483 - World Scramble.o" "../src/483 - World Scramble.cpp"
+../src/483 - World Scramble.cpp:20:29: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while(getline (cin,String) != EOF){
+              ~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+1 warning generated.
+Finished building: ../src/483 - World Scramble.cpp
+ 
+Building target: 483 - World Scramble
+Invoking: MacOS X C++ Linker
+g++  -o "483 - World Scramble"  ./src/483\ -\ World\ Scramble.o   
+Finished building target: 483 - World Scramble
+ 
+
+16:48:10 Build Finished (took 691ms)
+

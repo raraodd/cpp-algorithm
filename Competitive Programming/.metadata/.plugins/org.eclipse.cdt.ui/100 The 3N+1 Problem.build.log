@@ -1,0 +1,19 @@
+15:02:59 **** Incremental Build of configuration Debug for project 100 The 3N+1 Problem ****
+make all 
+Building file: ../src/100 The 3N+1 Problem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/100 The 3N+1 Problem.d" -MT"src/100\ The\ 3N+1\ Problem.d" -o "src/100 The 3N+1 Problem.o" "../src/100 The 3N+1 Problem.cpp"
+../src/100 The 3N+1 Problem.cpp:29:26: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while ( (cin >> i >> j) != EOF ){
+                ~~~~~~~~~~~~~~~ ^  ~~~
+1 warning generated.
+Finished building: ../src/100 The 3N+1 Problem.cpp
+ 
+Building target: 100 The 3N+1 Problem
+Invoking: MacOS X C++ Linker
+g++  -o "100 The 3N+1 Problem"  ./src/100\ The\ 3N+1\ Problem.o   
+Finished building target: 100 The 3N+1 Problem
+ 
+
+15:03:01 Build Finished (took 1s.942ms)
+

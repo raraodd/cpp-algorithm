@@ -1,0 +1,151 @@
+16:36:31 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+make: Nothing to be done for `all'.
+16:36:33 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+make: Nothing to be done for `all'.
+16:36:59 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+Building file: ../src/483 - World Scramble.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/483 - World Scramble.d" -MT"src/483\ -\ World\ Scramble.d" -o "src/483 - World Scramble.o" "../src/483 - World Scramble.cpp"
+../src/483 - World Scramble.cpp:17:29: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while(getline (cin,String) != EOF){
+              ~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+1 warning generated.
+Finished building: ../src/483 - World Scramble.cpp
+ 
+Building target: 483 - World Scramble
+Invoking: MacOS X C++ Linker
+g++  -o "483 - World Scramble"  ./src/483\ -\ World\ Scramble.o   
+Finished building target: 483 - World Scramble
+ 
+16:38:14 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+Building file: ../src/483 - World Scramble.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/483 - World Scramble.d" -MT"src/483\ -\ World\ Scramble.d" -o "src/483 - World Scramble.o" "../src/483 - World Scramble.cpp"
+../src/483 - World Scramble.cpp:19:7: error: expected ';' after expression
+                cout String.size();
+                    ^
+                    ;
+../src/483 - World Scramble.cpp:19:3: warning: expression result unused [-Wunused-value]
+                cout String.size();
+                ^~~~
+../src/483 - World Scramble.cpp:17:29: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while(getline (cin,String) != EOF){
+              ~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+2 warnings and 1 error generated.
+make: *** [src/483 - World Scramble.o] Error 1
+16:38:27 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+Building file: ../src/483 - World Scramble.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/483 - World Scramble.d" -MT"src/483\ -\ World\ Scramble.d" -o "src/483 - World Scramble.o" "../src/483 - World Scramble.cpp"
+../src/483 - World Scramble.cpp:17:29: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while(getline (cin,String) != EOF){
+              ~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+1 warning generated.
+Finished building: ../src/483 - World Scramble.cpp
+ 
+Building target: 483 - World Scramble
+Invoking: MacOS X C++ Linker
+g++  -o "483 - World Scramble"  ./src/483\ -\ World\ Scramble.o   
+Finished building target: 483 - World Scramble
+ 
+16:44:57 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+Building file: ../src/483 - World Scramble.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/483 - World Scramble.d" -MT"src/483\ -\ World\ Scramble.d" -o "src/483 - World Scramble.o" "../src/483 - World Scramble.cpp"
+../src/483 - World Scramble.cpp:29:17: warning: result of comparison against a string literal is unspecified (use strncmp instead) [-Wstring-compare]
+                        if(String[i] == " "){
+                                     ^  ~~~
+../src/483 - World Scramble.cpp:29:17: error: comparison between pointer and integer ('int' and 'const char *')
+                        if(String[i] == " "){
+                           ~~~~~~~~~ ^  ~~~
+../src/483 - World Scramble.cpp:21:29: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while(getline (cin,String) != EOF){
+              ~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+2 warnings and 1 error generated.
+make: *** [src/483 - World Scramble.o] Error 1
+16:45:21 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+Building file: ../src/483 - World Scramble.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/483 - World Scramble.d" -MT"src/483\ -\ World\ Scramble.d" -o "src/483 - World Scramble.o" "../src/483 - World Scramble.cpp"
+../src/483 - World Scramble.cpp:21:29: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while(getline (cin,String) != EOF){
+              ~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+1 warning generated.
+Finished building: ../src/483 - World Scramble.cpp
+ 
+Building target: 483 - World Scramble
+Invoking: MacOS X C++ Linker
+g++  -o "483 - World Scramble"  ./src/483\ -\ World\ Scramble.o   
+Finished building target: 483 - World Scramble
+ 
+16:46:11 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+Building file: ../src/483 - World Scramble.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/483 - World Scramble.d" -MT"src/483\ -\ World\ Scramble.d" -o "src/483 - World Scramble.o" "../src/483 - World Scramble.cpp"
+../src/483 - World Scramble.cpp:21:29: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while(getline (cin,String) != EOF){
+              ~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+1 warning generated.
+Finished building: ../src/483 - World Scramble.cpp
+ 
+Building target: 483 - World Scramble
+Invoking: MacOS X C++ Linker
+g++  -o "483 - World Scramble"  ./src/483\ -\ World\ Scramble.o   
+Finished building target: 483 - World Scramble
+ 
+16:46:49 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+Building file: ../src/483 - World Scramble.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/483 - World Scramble.d" -MT"src/483\ -\ World\ Scramble.d" -o "src/483 - World Scramble.o" "../src/483 - World Scramble.cpp"
+../src/483 - World Scramble.cpp:21:29: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while(getline (cin,String) != EOF){
+              ~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+1 warning generated.
+Finished building: ../src/483 - World Scramble.cpp
+ 
+Building target: 483 - World Scramble
+Invoking: MacOS X C++ Linker
+g++  -o "483 - World Scramble"  ./src/483\ -\ World\ Scramble.o   
+Finished building target: 483 - World Scramble
+ 
+16:47:36 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+Building file: ../src/483 - World Scramble.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/483 - World Scramble.d" -MT"src/483\ -\ World\ Scramble.d" -o "src/483 - World Scramble.o" "../src/483 - World Scramble.cpp"
+../src/483 - World Scramble.cpp:20:29: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while(getline (cin,String) != EOF){
+              ~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+1 warning generated.
+Finished building: ../src/483 - World Scramble.cpp
+ 
+Building target: 483 - World Scramble
+Invoking: MacOS X C++ Linker
+g++  -o "483 - World Scramble"  ./src/483\ -\ World\ Scramble.o   
+Finished building target: 483 - World Scramble
+ 
+16:48:09 **** Incremental Build of configuration Debug for project 483 - World Scramble ****
+make all 
+Building file: ../src/483 - World Scramble.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/483 - World Scramble.d" -MT"src/483\ -\ World\ Scramble.d" -o "src/483 - World Scramble.o" "../src/483 - World Scramble.cpp"
+../src/483 - World Scramble.cpp:20:29: warning: comparison of constant -1 with expression of type 'bool' is always true [-Wtautological-constant-out-of-range-compare]
+        while(getline (cin,String) != EOF){
+              ~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+1 warning generated.
+Finished building: ../src/483 - World Scramble.cpp
+ 
+Building target: 483 - World Scramble
+Invoking: MacOS X C++ Linker
+g++  -o "483 - World Scramble"  ./src/483\ -\ World\ Scramble.o   
+Finished building target: 483 - World Scramble
+ 
